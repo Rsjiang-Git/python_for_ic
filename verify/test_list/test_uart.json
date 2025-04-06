@@ -1,0 +1,12 @@
+{
+    "base_test": {
+        "compile_file": "compile_uart",
+        "compile_name": "base_compile",
+        "sim_opts": "+UVM_TEST_NAME=case"
+    },
+    "corner_test": {
+        "compile_file": "compile_uart",
+        "compile_name": "base_compile",
+        "sim_opts": "+UVM_TEST_NAME=corner_case"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "base_compile": {
+        "compile_opts": "+define UVM",
+        "rtl_file": "-f {PRJ_ROOT}/rtl",
+        "verify_file": "-f {PRJ_ROOT}/tb"
+    },
+    "corner_compile": {
+        "compile_opts": "+define UVM",
+        "rtl_file": "-f {PRJ_ROOT}/rtl",
+        "verify_file": "-f {PRJ_ROOT}/tb"
+    }
+}

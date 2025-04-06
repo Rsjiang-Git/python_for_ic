@@ -1,0 +1,4 @@
+{
+    "fatal": "UVM_FATAL : (.+)",
+    "error": "UVM_ERROR : (.+)"
+}
